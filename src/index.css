@@ -1,0 +1,138 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.Header {
+  height: 4.5em;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(76, 45, 116);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Title h1 {
+  margin: 0;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.SearchBar{
+  position: absolute;
+  top: 30px;
+  left: 425px;
+  height: 30px;
+  width: 50px;
+}
+
+.SearchBar input{
+  width: 250px;
+}
+
+.Contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contents ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+.Contents li {
+  padding: 1.5em;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cartLogo {
+  transform: scale(1.4);
+  cursor: pointer;
+  display: flex;
+  padding: 0em 0em 0.5em 0.5em;
+}
+
+.cartLogo p{
+  margin: 0;
+}
+
+.cartLogo sup{
+  font-size: 0.8em;
+  font-weight: 100;
+}
+
+.ProductCard {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Product {
+  display: flex;
+  width: 45%;
+  height: 45%;
+  border: 1px;
+  box-shadow: 5px 10px 10px rgba(92, 89, 89, 0.884);
+  margin: 2em 2em 2em 0em;
+}
+
+.Image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px; 
+  padding: 1em;
+  margin: auto;
+}
+
+.Information {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 1.5em;
+  border-left: 8px solid rgb(76, 45, 116);;
+  border-radius: 0.5em;
+}
+
+.CartItems { 
+  margin: auto;
+  width: 80%;
+}
+
+.CartTotal{
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 25%;
+  border: 1px;
+  box-shadow: 1px 10px 10px rgba(92, 89, 89, 0.884);
+  padding: 2em;
+}
+
+.Summary{
+  margin: 0em 6em 0em 6em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.Total{
+  color: maroon;
+  font-weight: bold;
+  border-top: 2px dashed seagreen;
+  border-bottom: 2px dashed seagreen;
+  padding: 1em;
+}
+
+
