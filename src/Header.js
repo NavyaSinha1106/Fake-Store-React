@@ -16,7 +16,7 @@ function Header(props) {
         {(value) => (
           <div className="Header">
             <div className="Title">
-              <Heading click={value}>BigMart</Heading>
+              <Heading click={value}>HappyShop</Heading>
             </div>
             <div className="SearchBar"><input type="text" placeholder="Category &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &#x1F50E;"></input></div>
             <div className="Contents">
