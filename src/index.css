@@ -78,10 +78,9 @@ body {
 }
 
 .Product {
-  display: flex;
   width: 45%;
   height: 45%;
-  border: 1px;
+  border: 2px solid rgb(76, 45, 116);
   box-shadow: 5px 10px 10px rgba(92, 89, 89, 0.884);
   margin: 2em 2em 2em 0em;
 }
@@ -102,8 +101,6 @@ img {
   text-overflow: ellipsis;
   overflow: hidden;
   padding: 1.5em;
-  border-left: 8px solid rgb(76, 45, 116);;
-  border-radius: 0.5em;
 }
 
 .CartItems { 
@@ -130,8 +127,8 @@ img {
 .Total{
   color: maroon;
   font-weight: bold;
-  border-top: 2px dashed seagreen;
-  border-bottom: 2px dashed seagreen;
+  border-top: 2px dashed rgb(76, 45, 116);
+  border-bottom: 2px dashed rgb(76, 45, 116);
   padding: 1em;
 }
 
