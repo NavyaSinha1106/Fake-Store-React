@@ -2,7 +2,7 @@
 
 ## Main Goal
 
-#### The main goal of this project was to built an e-shopping platform from which users can browse through different categories, add and delete from cart.
+#### The main goal of this project was to build an e-shopping platform from which users can browse through different categories, add and delete from cart.
 
 ## TECHNOLOGIES: 
 
